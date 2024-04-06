@@ -83,3 +83,8 @@ fabric.properties
 # End of https://www.toptal.com/developers/gitignore/api/rider
 
 .src/.idea
+.idea/
+src/BuildingBlocks/BuildingBlocks/bin/
+src/BuildingBlocks/BuildingBlocks/obj/
+src/Services/Catalog/Catalog.API/bin/
+src/Services/Catalog/Catalog.API/obj/
