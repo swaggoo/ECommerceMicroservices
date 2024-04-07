@@ -88,3 +88,5 @@ src/BuildingBlocks/BuildingBlocks/bin/
 src/BuildingBlocks/BuildingBlocks/obj/
 src/Services/Catalog/Catalog.API/bin/
 src/Services/Catalog/Catalog.API/obj/
+src/.vs/
+src/obj/
