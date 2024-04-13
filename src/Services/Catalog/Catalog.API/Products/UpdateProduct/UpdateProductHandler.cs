@@ -7,7 +7,20 @@ public record UpdateProductCommand(Guid Id, string Name, string Description, dec
 
 public record UpdateProductResult(bool IsUpdated);
 
-public class UpdateProductHandler(IDocumentSession session, ILogger<UpdateProductHandler> logger) 
+public class UpdateProductCommandValidator : AbstractValidator<UpdateProductCommand>
+{
+    public UpdateProductCommandValidator()
+    {
+        RuleFor(x => x.Id).NotEmpty();
+        RuleFor(x => x.Name).NotEmpty();
+        RuleFor(x => x.Category).NotEmpty();
+        RuleFor(x => x.Description).NotEmpty();
+        RuleFor(x => x.ImageFile).NotEmpty();
+        RuleFor(x => x.Price).GreaterThan(0);
+    }
+}
+
+internal class UpdateProductHandler(IDocumentSession session, ILogger<UpdateProductHandler> logger) 
     : ICommandHandler<UpdateProductCommand, UpdateProductResult>
 {
     public async Task<UpdateProductResult> Handle(UpdateProductCommand command, CancellationToken cancellationToken)
