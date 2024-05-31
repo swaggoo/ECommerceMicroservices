@@ -1,8 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "C5x89nsGCvcgdODYRENR2/W5FLNQr6LcIBJaVIFHFiUAOh2RRO6Jd01S+kGDaLkVB7t47xd5sm5cANr6HfXNzA==",
+  "dgSpecHash": "HHcSSNVbr1bTm1q2PagP5qE/V9dVEN+cv6DMtTdClwhVWABmJMf3BW4PycdyVcaia2qZMJ6ccFdy55+cakhKgQ==",
   "success": true,
   "projectFilePath": "D:\\Programach\\ECommerceMicroservices\\src\\Services\\Basket\\Basket.API\\Basket.API.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\nazar\\.nuget\\packages\\carter\\8.0.0\\carter.8.0.0.nupkg.sha512",
+    "C:\\Users\\nazar\\.nuget\\packages\\fluentvalidation\\11.9.0\\fluentvalidation.11.9.0.nupkg.sha512",
+    "C:\\Users\\nazar\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "C:\\Users\\nazar\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.9.0\\fluentvalidation.dependencyinjectionextensions.11.9.0.nupkg.sha512",
+    "C:\\Users\\nazar\\.nuget\\packages\\mapster\\7.4.1-pre01\\mapster.7.4.1-pre01.nupkg.sha512",
+    "C:\\Users\\nazar\\.nuget\\packages\\mapster.core\\1.2.2-pre01\\mapster.core.1.2.2-pre01.nupkg.sha512",
+    "C:\\Users\\nazar\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
+    "C:\\Users\\nazar\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\nazar\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\nazar\\.nuget\\packages\\microsoft.extensions.dependencymodel\\8.0.0\\microsoft.extensions.dependencymodel.8.0.0.nupkg.sha512",
+    "C:\\Users\\nazar\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
+    "C:\\Users\\nazar\\.nuget\\packages\\system.text.json\\8.0.0\\system.text.json.8.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
