@@ -15,7 +15,7 @@ public class GetBasketEndpoint : ICarterModule
             return Results.Ok(response);
         })
         .WithName("GetBasketByUserName")
-        .Produces<GetBasketResponse>(StatusCodes.Status200OK)
+        .Produces<GetBasketResponse>()
         .ProducesProblem(StatusCodes.Status400BadRequest)
         .WithSummary("Get Basket by UserName")
         .WithDescription("Get Basket by UserName");

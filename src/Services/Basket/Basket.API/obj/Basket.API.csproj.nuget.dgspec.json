@@ -124,6 +124,10 @@
             "Carter": {
               "target": "Package",
               "version": "[8.0.0, )"
+            },
+            "Marten": {
+              "target": "Package",
+              "version": "[7.17.1, )"
             }
           },
           "imports": [
