@@ -13,12 +13,12 @@ public class BasketRepository(IDocumentSession session)
         return basket ?? throw new BasketNotFoundException(userName);
     }
 
-    public async Task<ShoppingCart> StoreBasket(ShoppingCart cart, CancellationToken cancellationToken = default)
+    public async Task<ShoppingCart> StoreBasket(ShoppingCart basket, CancellationToken cancellationToken = default)
     {
-        session.Store(cart);
+        session.Store(basket);
         await session.SaveChangesAsync(cancellationToken);
         
-        return cart;
+        return basket;
     }
 
     public async Task<bool> DeleteBasket(string userName, CancellationToken cancellationToken = default)
